@@ -1,0 +1,182 @@
+.my-header{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 205, 0.716);
+    padding-bottom: 20px;
+    margin: 0;
+}
+.heading{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+.heading span{
+    color: crimson;
+}
+.img-1{
+    width: 60%;
+    padding: 10px;
+    height: 400px;
+}
+.img-2{
+    width: 60%;
+    padding: 10px;
+    height: 400px;
+}
+.img-3{
+    width: 60%;
+    padding: 10px;
+    height: 400px;
+}
+.first-part{
+    text-align: center;
+}
+.first-link{
+    border: 5px double white;
+    background-color: orange;
+    padding: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.first-link span{
+    text-decoration: line-through;
+}
+.first-header{
+    margin-top: 50px;
+    width: 80%;
+    margin: 50px 100px;
+    color: mediumblue;
+}
+.first-header span{
+    color: rgba(0, 0, 205, 0.656);
+}
+.first-part p{
+    width: 80%;
+    margin: 50px 100px;
+    font-size: 25px;
+    color: black;
+}
+.first-para{
+    border: 1px solid rgba(220, 20, 60, 0.857);
+    padding: 30px;
+}
+.first-para span{
+    color: rgba(0, 0, 0, 0.655);
+}
+.second-part{
+    text-align: center;
+}
+.second-part h3{
+    font-size: 35px;
+    color: rgba(0, 0, 255, 0.637);
+}
+.my-form{
+    font-size: 30px;
+    padding: 0px 0;
+    margin: 20px 0;
+    vertical-align: text-bottom;
+}
+.second-part h1{
+    width: 80%;
+    margin: 50px 100px;
+    color: rgba(0, 0, 255, 0.612);
+}
+.second-part h1 span{
+    color: rgba(0, 0, 255, 0.764);
+}
+.second-part p{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.742);
+}
+.third-part{
+    background-color: rgba(0, 0, 0, 0.607);
+    text-align: center;
+    padding-bottom: 30px;
+}
+.img-4{
+    height: 500px;
+    padding-top: 25px;
+}
+.third-part h1{
+    font-size: 40px;
+    color: white;
+    width: 80%;
+    margin: 50px 100px;
+}
+.third-part h1 span{
+    color: rgba(220, 20, 60, 0.757);
+}
+.third-part p{
+    color: white;
+    font-size: 20px;
+}
+.fifth-part{
+    background-color: rgba(0, 0, 255, 0.781);
+    margin-top: -27px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.fifth-part h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+}
+.fifth-part p{
+    padding-top: 100px;
+    padding-left: 100px;
+    color: white;
+    font-size: 40px;
+}
+.img-5{
+    height: 400px;
+    
+}
+.flex-shiii{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:768px){
+    .my-header,
+    .heading,
+    .first-header,
+    .second-part,
+    .second-part h3,
+    .my-form,
+    .second-part h1,
+    .second-part p,
+    .third-part,
+    .img-4,
+    .third-part h1,
+    .third-part p,
+    .fifth-part,
+    .fifth-part h1,
+    .fifth-part p,
+    .img-5,
+    .flex-shiii{
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .img-1,
+    .img-2,
+    .img-3{
+        text-align: center;
+        width: 95%;
+    }
+    .first-link{
+        text-align: center;
+        width: 60%;
+    }
+    .first-para{
+        display: none;
+    }
+    .first-part p{
+        display: none;
+    }
+}
