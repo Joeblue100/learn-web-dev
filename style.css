@@ -38,6 +38,7 @@
     font-size: 16px;
     text-decoration: none;
     color: white;
+    width: 80%;
 }
 .first-link span{
     text-decoration: line-through;
@@ -86,6 +87,7 @@
     color: rgba(0, 0, 255, 0.764);
 }
 .second-part p{
+    text-align: center;
     font-size: 25px;
     color: rgba(0, 0, 0, 0.742);
 }
@@ -123,7 +125,7 @@
     padding-top: 30px;
     color: white;
 }
-.fifth-part p{
+.paragraph{
     padding-top: 100px;
     padding-left: 100px;
     color: white;
@@ -138,45 +140,64 @@
     flex-direction: row;
 }
 @media(max-width:768px){
-    .my-header,
-    .heading,
-    .first-header,
-    .second-part,
-    .second-part h3,
-    .my-form,
-    .second-part h1,
-    .second-part p,
-    .third-part,
-    .img-4,
-    .third-part h1,
-    .third-part p,
-    .fifth-part,
-    .fifth-part h1,
-    .fifth-part p,
-    .img-5,
-    .flex-shiii{
+    .container{
         text-align: center;
-        width: 100%;
-        display: block;
-        padding-left: 0;
-        margin-left: 0;
-        margin-right: 0;
-        padding-right: 0;
+        width: 80%;
     }
-    .img-1,
-    .img-2,
-    .img-3{
+    .heading{
+        text-align: center;
+    }
+    .img-1{
         text-align: center;
         width: 95%;
     }
+    .img-2{
+        text-align: center;
+        width: 95%;
+        height: 150px;
+    }
+    .img-3{
+        text-align: center;
+        width: 95%;
+        height: 150px;
+    }
     .first-link{
         text-align: center;
-        width: 60%;
+        width: 80%;
+        padding: 10px ;
+        font-size: 10px;
+    }
+    .first-header{
+        margin: 30px ;
+        text-align: center;
     }
     .first-para{
         display: none;
     }
     .first-part p{
+        display: none;
+    }
+    .second-part p{
+        text-align: center;
+        margin: 40px ;
+    }
+    .second-part h1{
+        text-align: center;
+        margin: 40px ;
+    }
+    .img-4{
+        text-align: center;
+        width: 95%;
+        
+    }
+    .third-part h1{
+        text-align: center;
+        margin: 30px ;
+    }
+    .paragraph{
+        display: none;
+    }
+    .img-5{
         display: none;
     }
 }
