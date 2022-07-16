@@ -164,6 +164,9 @@
         text-align: center;
         width: 100vw;
         margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
     .heading{
         text-align: center;
